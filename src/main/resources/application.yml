@@ -1,0 +1,27 @@
+# 端口号
+server:
+  port: 8088
+# 应用环境配置
+spring:
+  profiles:
+    active: dev
+#生产环境配置
+#spring:
+#  profiles:
+#    active: pro
+# Mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.cyj.spring.*.model.po
+  global-config:
+    id-type: 1
+    field-strategy: 1
+    refresh-mapper: true
+    db-column-underline: true
+    logic-delete-value: 1
+    logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+

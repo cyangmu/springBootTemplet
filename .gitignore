@@ -1,0 +1,34 @@
+# idea
+/.idea
+.idea
+*.iml
+*.ipr
+*.iws
+/target
+/out
+
+# java
+.class
+*.ear
+*.jar
+*.war
+*.zip
+*.rar
+*.tar.gz
+
+WebRoot/WEB-INF/classes/
+classes/
+
+# MAC
+**/.DS_Store
+
+*.pyc
+
+# gradle
+build/
+.gradle/
+src/main/resources/rebel.xml
+out
+
+*.log*
+dalgen/target/
