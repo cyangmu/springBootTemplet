@@ -7,11 +7,8 @@ package com.cyj.spring.system.model.reboot.dingding;
  */
 public enum RebootEnum {
 
-    SBK_WX_REBOOT("https://oapi.dingtalk.com/robot/send?access_token=4a32898b7c65279fd037af67c81ad624d630b47b9da11439167fe53f09b250db", "微信平台通知机器人"),
+    SBK_WX_REBOOT("webhook", "通知机器人");
 
-    SBK_ERROR_REBOOT("https://oapi.dingtalk.com/robot/send?access_token=09a97dfcbe9844bccee05075a62d00db872c2da00ce718452ccaf3015a1b8605", "查错机器人"),
-
-    SBK_APP("https://oapi.dingtalk.com/robot/send?access_token=dda3457dc3dc7172307978bfa14953a1af1ee6f265175fdcd90cc82417cade5a", "APP数据机器人");
 
     private String key;
 
